@@ -1,24 +1,42 @@
-# README
+# TeamUp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TeamUp is a team-building tool built for Purdue students. TeamUp centralizes the process and allows for students to find classmates with similar skills and interests.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Make sure to have Ruby version 2.3.0 and rails version 5.0.0.1
 
-* System dependencies
+Clone the project
+```bash
+git clone https://github.com/whuang8/TeamUp.git
+```
 
-* Configuration
+Change to project directory
+```bash
+cd TeamUp
+```
 
-* Database creation
+Install gems
+```bash
+bundle install
+```
 
-* Database initialization
+Run db migrations
+```bash
+rails db:migrate
+```
 
-* How to run the test suite
+Run local server
+```bash
+rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Navigate to localhost:3000
 
-* Deployment instructions
+## Contributing
 
-* ...
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
