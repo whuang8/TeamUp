@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+  resources :courses
   root 'welcome#index'
   resources :welcome do
   collection do
